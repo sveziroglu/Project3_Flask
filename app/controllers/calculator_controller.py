@@ -7,10 +7,9 @@ class CalculatorController(ControllerBase):
     @staticmethod
     def post():
         if request.form['value1'] == '' or request.form['value2'] == '':
-            error = 'You must enter a value for value 1 and or value 2'
+            error = 'Values missing. Please impute values.'
         else:
-            flash('You successfully calculated')
-            flash('You are awesome')
+            flash('Success!')
 
             # get the values out of the form
             value1 = request.form['value1']
