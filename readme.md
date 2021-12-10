@@ -1,6 +1,6 @@
 #Project 3 Setup
 ![img_2.png](img_2.png)!
-![img_1.png](img_1.png)
+![img_4.png](img_4.png)
 
 To run tests, Lint, and Coverage report use this command:
 
