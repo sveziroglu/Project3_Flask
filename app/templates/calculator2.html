@@ -10,7 +10,7 @@
 {% endblock %}
 {% block content %}
 
-    <h1>My Calculator</h1>
+    <h1>Sandra's Calculator ✎</h1>
      {% if error %}
          <div class="alert alert-danger error" role="alert">
              {{ error }}
@@ -36,6 +36,10 @@
           <div>
             <input type="radio" name="operation" id="multiplication" value="multiplication">
             <label for="multiplication">multiplication</label>
+          </div>
+            <div>
+            <input type="radio" name="operation" id="division" value="division">
+            <label for="division">division</label>
           </div>
         </fieldset>
 
